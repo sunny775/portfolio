@@ -5,6 +5,9 @@
 // Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+const path = require("path");
+
+console.log(path.join(__dirname, "sonnie"));
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -136,21 +139,21 @@ const workExperiences = {
     {
       role: "Debian Maintainer",
       company: "Debian.org",
-      companylogo: require("./assets/images/debianLogo.png"),
+      companylogo: "images/debianLogo.png",
       date: "September 2021 – Present",
       desc: "I am currently a Debian Maintainer. I upload new packages and maintain a handful of existing packages for the Debian Linux/GNU"
     },
     {
       role: "Outreachy Intern with Debian",
       company: "Debian.org",
-      companylogo: require("./assets/images/debianLogo.png"),
+      companylogo: "./images/debianLogo.png",
       date: "May 2021 – August 2021",
       desc: "I  worked with the Debian js-team as an intern. My job centered on working with the Debian js-team to develop, package and maintain nodejs packages for the Debian Linux/GNU."
     },
     {
       role: "Software Developer",
       company: "Freelance, Self-Employed",
-      companylogo: require("./assets/images/freelanceLogo.jpg"),
+      companylogo: "./assets/images/freelanceLogo.jpg",
       date: "Aug 2018 – Present",
       desc: "I have been making a living as a freelance software developer, by bidding and accepting software development  gigs from remote contracts."
     }
@@ -172,7 +175,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/e-scholarsLogo.png"),
+      image: "./assets/images/e-scholarsLogo.png",
       projectName: "Exceptional Scholars Academy",
       projectDesc:
         "A website for Exceptional Scholars Education Advisory and Consultancy Agency.",
@@ -185,7 +188,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/blsLogo.png"),
+      image: "./assets/images/blsLogo.png",
       projectName: "Better Life Savings Ltd",
       projectDesc:
         "A website for Better Life Savings Ltd, a micro-savings/ community banking Agency",
