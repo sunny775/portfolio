@@ -139,21 +139,21 @@ const workExperiences = {
     {
       role: "Debian Maintainer",
       company: "Debian.org",
-      companylogo: "images/debianLogo.png",
+      companylogo: require("./assets/images/debianLogo.png"),
       date: "September 2021 – Present",
       desc: "I am currently a Debian Maintainer. I upload new packages and maintain a handful of existing packages for the Debian Linux/GNU"
     },
     {
       role: "Outreachy Intern with Debian",
       company: "Debian.org",
-      companylogo: "./images/debianLogo.png",
+      companylogo: require("./assets/images/debianLogo.png"),
       date: "May 2021 – August 2021",
       desc: "I  worked with the Debian js-team as an intern. My job centered on working with the Debian js-team to develop, package and maintain nodejs packages for the Debian Linux/GNU."
     },
     {
       role: "Software Developer",
       company: "Freelance, Self-Employed",
-      companylogo: "./assets/images/freelanceLogo.jpg",
+      companylogo: require("./assets/images/freelanceLogo.jpg"),
       date: "Aug 2018 – Present",
       desc: "I have been making a living as a freelance software developer, by bidding and accepting software development  gigs from remote contracts."
     }
@@ -175,7 +175,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: "./assets/images/e-scholarsLogo.png",
+      image: require("./assets/images/e-scholarsLogo.png"),
       projectName: "Exceptional Scholars Academy",
       projectDesc:
         "A website for Exceptional Scholars Education Advisory and Consultancy Agency.",
@@ -188,7 +188,7 @@ const bigProjects = {
       ]
     },
     {
-      image: "./assets/images/blsLogo.png",
+      image: require("./assets/images/blsLogo.png"),
       projectName: "Better Life Savings Ltd",
       projectDesc:
         "A website for Better Life Savings Ltd, a micro-savings/ community banking Agency",
