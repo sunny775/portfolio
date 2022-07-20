@@ -175,7 +175,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/e-scholarsLogo.png"),
+      image: require("./assets/images/escholars.jpg"),
       projectName: "Exceptional Scholars Academy",
       projectDesc:
         "A website for Exceptional Scholars Education Advisory and Consultancy Agency.",
@@ -188,7 +188,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/blsLogo.png"),
+      image: require("./assets/images/bls.jpg"),
       projectName: "Better Life Savings Ltd",
       projectDesc:
         "A website for Better Life Savings Ltd, a micro-savings/ community banking Agency",
