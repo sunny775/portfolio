@@ -28,7 +28,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/sunny775",
-  linkedin: "https://www.linkedin.com/in/sunday-nkwuda-04aa57a7/",
+  linkedin: "https://www.linkedin.com/in/sunday-nkwuda/",
   gmail: "scletus40@gmail.com",
   gitlab: "https://salsa.debian.org/sonnie",
   facebook: "https://www.facebook.com/mcsonnie",
@@ -139,14 +139,14 @@ const workExperiences = {
     {
       role: "Debian Maintainer",
       company: "Debian.org",
-      companylogo: require("./assets/images/debianLogo.png"),
+      companylogo: require("./assets/images/debianLogo.jpg"),
       date: "September 2021 – Present",
       desc: "I am currently a Debian Maintainer. I upload new packages and maintain a handful of existing packages for the Debian Linux/GNU"
     },
     {
       role: "Outreachy Intern with Debian",
       company: "Debian.org",
-      companylogo: require("./assets/images/debianLogo.png"),
+      companylogo: require("./assets/images/debianLogo.jpg"),
       date: "May 2021 – August 2021",
       desc: "I  worked with the Debian js-team as an intern. My job centered on working with the Debian js-team to develop, package and maintain nodejs packages for the Debian Linux/GNU."
     },

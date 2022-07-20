@@ -13,37 +13,35 @@ export default function Projects() {
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);
 
-
   const opeSourceProjects = [
     {
       node: {
-        name: 'Yarn-plugin-apt',
-        description: 'A yarn plugin to resolve node modules installed via apt',
+        name: "Yarn-plugin-apt",
+        description: "A yarn plugin to resolve node modules installed via apt",
         primaryLanguage: {
-          name: 'Javascript',
-          colr: 'yellow'
+          name: "Javascript",
+          colr: "yellow"
         },
-        url: 'https://salsa.debian.org/js-team/yarn-plugin-apt',
-        diskUsage: '440kb'
+        url: "https://salsa.debian.org/js-team/yarn-plugin-apt",
+        diskUsage: "440kb"
       }
     },
     {
       node: {
-        name: 'xmppjs-mam-plugin',
-        description: 'An xmppjs plugin for message archive management (XEP-0313)',
+        name: "Paste Hub",
+        description:
+          "A prettified multi-language syntax-highlighting paste bin",
         primaryLanguage: {
-          name: 'Javascript',
-          colr: 'yellow'
+          name: "Javascript",
+          colr: "yellow"
         },
-        url: 'https://gitlab.com/bifrost-mam/xmppjs-mam-plugin',
-        diskUsage: '400kb'
+        url: "https://github.com/sunny775/paste-hub",
+        diskUsage: "2500kb"
       }
     }
-  ]
+  ];
 
-  if (
-    openSource.display
-  ) {
+  if (openSource.display) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
@@ -51,7 +49,11 @@ export default function Projects() {
           <div className="repo-cards-div-main">
             {opeSourceProjects.map((v, i) => {
               return (
-                <GithubRepoCard repo={v} key={i+v.node.name} isDark={isDark} />
+                <GithubRepoCard
+                  repo={v}
+                  key={i + v.node.name}
+                  isDark={isDark}
+                />
               );
             })}
           </div>
