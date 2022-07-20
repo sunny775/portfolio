@@ -20,7 +20,7 @@ const greeting = {
     "A passionate FullStack Software Developer and a Linux contributor 🚀 having a good experience building Web apps with JavaScript ( Reactjs & Nodejs ) and contributing to the Debian Linux/GNU."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1cA_DLW_7cRYmN83405i8qtzS4CZk0EN8JU5KtTDggI4/edit?usp=sharing",
+    "https://docs.google.com/document/d/1h1Lt-pW21TTFls60U-cEXwrCRIuELsCAxG6xqWDyFYg/edit?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
